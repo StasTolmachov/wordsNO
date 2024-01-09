@@ -60,15 +60,15 @@ var TenWords []DictionaryStruct
 
 // var MyLibrary string = "library/EnglishForEveryone.json"
 // var MyLibrary string = "library/weeks.json"
+var MyLibrary string = "library/no.json"
+
 //var MyLibrary string = "library/HF_Networking.json"
 
-var MyLibrary string = "library/Oxford_A1.json"
+//var MyLibrary string = "library/Oxford_A1.json"
+
 // var MyLibrary string = "library/Oxford_A2.json"
 
-
 // var MyLibrary string = "library/class101.json"
-
-
 
 //var MyLibrary string = "library/weeks.json"
 
@@ -100,7 +100,7 @@ func main() {
 		return
 	}
 
-	jsonFileGoogle, err := os.Open("eng-rus_Google_v2.json")
+	jsonFileGoogle, err := os.Open("nok-ukr_v2.json")
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
